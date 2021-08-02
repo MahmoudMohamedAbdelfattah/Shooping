@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sukar Bold.ttf">
+            <string>Sukar-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yasmine-arfaoui-qbvAboqHkBg-unsplash (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Gv8-QE-cXN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Subtraction 25" translatesAutoresizingMaskIntoConstraints="NO" id="2ga-ds-w29">
+                                <rect key="frame" x="136.5" y="425.5" width="141" height="45"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="-3" translatesAutoresizingMaskIntoConstraints="NO" id="bij-K0-Oom">
+                                <rect key="frame" x="83" y="490.5" width="248" height="23.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التجاري" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlZ-Hh-Ko2">
+                                        <rect key="frame" x="0.0" y="0.0" width="84.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D2021" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fN9-PI-yjs">
+                                        <rect key="frame" x="81.5" y="0.0" width="85" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="دليل" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzb-d3-CHl">
+                                        <rect key="frame" x="163.5" y="0.0" width="84.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bij-K0-Oom" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="14B-yU-3D2"/>
+                            <constraint firstItem="bij-K0-Oom" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.0262277" id="5aU-tg-936"/>
+                            <constraint firstItem="Gv8-QE-cXN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9dQ-H6-GOQ"/>
+                            <constraint firstItem="2ga-ds-w29" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.34058" id="Aqk-8u-5Vx"/>
+                            <constraint firstItem="Gv8-QE-cXN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EtY-AD-WMt"/>
+                            <constraint firstItem="bij-K0-Oom" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.6" id="UGV-HE-nXN"/>
+                            <constraint firstItem="2ga-ds-w29" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VtW-42-FVu"/>
+                            <constraint firstItem="Gv8-QE-cXN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cLv-l2-VFN"/>
+                            <constraint firstItem="bij-K0-Oom" firstAttribute="top" secondItem="2ga-ds-w29" secondAttribute="bottom" constant="20" id="fau-XK-3Tl"/>
+                            <constraint firstAttribute="bottom" secondItem="Gv8-QE-cXN" secondAttribute="bottom" id="gvi-Vf-hFa"/>
+                            <constraint firstItem="2ga-ds-w29" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.05" id="id5-ax-zvW"/>
+                            <constraint firstItem="2ga-ds-w29" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="yGn-Q0-paA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Subtraction 25" width="141" height="66"/>
+        <image name="yasmine-arfaoui-qbvAboqHkBg-unsplash (1)" width="360" height="740"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
